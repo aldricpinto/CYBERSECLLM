@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.vscode/
+.vllm/
+.vscode-test/
+.vllm-env/
+.vllm*/  # covers your custom (vllm) environment
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# FastAPI/Ollama
+uploads/
+vectorstore/
+*.pkl
+*.jsonl
+*.tmp
+
+# Logs and debug
+*.log
+logs/
+*.bak
+*.swp
+
+# Hugging Face model cache
+~/.cache/huggingface/
+.cache/
+huggingface/
+
+# Ollama
+ollama.db
+ollama_models/
+
+# Test artifacts
+test_outputs/
+temp/
+*.test.*
