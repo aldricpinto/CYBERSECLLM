@@ -1,4 +1,4 @@
-# 🔐 LLM-Powered JSON-LD Anomaly Detection for Cybersecurity
+# LLM-Powered JSON-LD Anomaly Detection for Cybersecurity
 
 This project is a research-driven application that uses a Large Language Model (LLM) to detect anomalies in structured forensic data formats (like JSON-LD) commonly found in cybersecurity investigations.
 
