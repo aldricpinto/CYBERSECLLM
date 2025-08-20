@@ -158,5 +158,3 @@ Description: ...
 ## 👨‍💻 Author
 
 **Aldric Pinto**
-Volunteer ML Engineer — University of New Haven
-Focus: LLMs, Cybersecurity, Digital Forensics
