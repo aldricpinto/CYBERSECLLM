@@ -6,14 +6,13 @@ Built with **FastAPI**, **FAISS**, **Sentence Transformers**, and run locally us
 
 ---
 
-## 📌 Key Features
+## Key Features:
 
-* ✅ **Upload and analyze JSON-LD files**
-* ✅ **LLM-based anomaly detection using Mistral (Ollama)**
-* ✅ **Automatic record compression and pattern grouping**
-* ✅ **RAG (Retrieval-Augmented Generation)** using FAISS + LangChain
-* ✅ **Strict response formatting** (Anomaly Detected: True/False + Description)
-* ✅ Runs 100% **locally**, no external LLM calls
+*  **Upload and analyze JSON-LD files**
+*  **LLM-based anomaly detection using Mistral (Ollama)**
+*  **Automatic record compression and pattern grouping**
+* **RAG (Retrieval-Augmented Generation)** using FAISS
+* Runs 100% **locally**, no external LLM calls
 
 ---
 
@@ -94,7 +93,7 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to test the API.
 
 ---
 
-## 📥 How It Works
+## How It Works:
 
 1. User uploads a `.jsonld` file via `/api/analyze`
 2. The file is parsed and grouped by `(timestamp, eventType)`
@@ -111,7 +110,7 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to test the API.
 
 ---
 
-## 📌 Prompt Format Used
+## Prompt Format Used:
 
 ```
 You are a digital forensic analyst.
@@ -137,7 +136,7 @@ Description: ...
 
 ---
 
-## ⚠️ Limitations
+## Limitations:
 
 * Only supports `.jsonld` files for now
 * Requires manual embedding of new knowledge base documents
@@ -145,7 +144,7 @@ Description: ...
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements:
 
 * GUI with Streamlit for interactive uploads
 * CSV/Docx support
