@@ -16,7 +16,7 @@ Built with **FastAPI**, **FAISS**, **Sentence Transformers**, and run locally us
 
 ---
 
-## 🧠 Use Case
+## Use Case:
 
 Forensic analysts and cyber researchers often deal with thousands of structured records like MFT, USNJRNL, or EventLogs in UCO-based JSON-LD formats. This system:
 
@@ -27,7 +27,7 @@ Forensic analysts and cyber researchers often deal with thousands of structured 
 
 ---
 
-## 📁 Project Structure
+## Project Structure:
 
 ```
 rag-anomaly-detector/
@@ -51,7 +51,7 @@ rag-anomaly-detector/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions:
 
 ### 1. Clone the repository
 
@@ -154,6 +154,6 @@ Description: ...
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Aldric Pinto**
